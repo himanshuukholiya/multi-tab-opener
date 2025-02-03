@@ -143,3 +143,37 @@ button:hover {
     font-style: italic;
     font-weight: 100;
 }
+
+/* making a bit responsive */
+
+@media (max-width: 700px) {
+    .header {
+        padding: 16px;
+        display: flex;
+        justify-content: flex-start;
+        background-color: #171717;
+        width: 100vw;
+    }
+    .main {
+        width: 90%;
+    }
+    .main-top {
+        display: flex;
+        flex-direction: column;
+    }
+    .main-note {
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 150px;
+    }
+    .footer {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .footer-links ul {
+        display: flex;
+        flex-direction: column;
+    }
+}
