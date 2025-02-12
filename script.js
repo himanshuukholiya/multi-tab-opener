@@ -7,8 +7,13 @@ function openTabs() {
     }
 }
 
-document.querySelector('.email-link').addEventListener("click", () => {
-    setTimeout(() => {
-        window.open("https://mail.google.com/mail/?view=cm&fs=1&to=himanshukholiya.work@gmail.com", '_blank')
-    }, 500);
-})
+// Function to trigger button click on Enter key press
+function handleKeyPress(event) {
+    if(event.key == "Enter") {
+        document.querySelector('.main-bottom-button button').click();
+    }
+}
+
+// Add event listeners to both input fields
+document.querySelector('.main-left-tabs input').addEventListener("keydown", handleKeyPress);
+document.querySelector('.main-right-links input').addEventListener("keydown", handleKeyPress);
