@@ -2,7 +2,7 @@
 
 **Open multiple website tabs in one click!**  
 
-🔗 **Live Demo:** [Multi-Tab Opener](https://himanshuukholiya.github.io/Multi-Tab-Opener/)  
+🔗 **Live Demo:** [Multi-Tab Opener](https://himanshuukholiya.github.io/multi-tab-opener/)  
 
 ## 📌 Features  
 - Open all at once with a single click.  
