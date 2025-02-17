@@ -23,4 +23,4 @@
 ## 📂 Setup  
 1. Clone the repo:  
    ```bash
-   git clone https://github.com/himanshuukholiya/Multi-Tab-Opener.git
+   git clone https://github.com/himanshuukholiya/multi-tab-opener.git
